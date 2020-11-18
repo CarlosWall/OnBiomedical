@@ -1,65 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
+<head>
 		<meta charset="UTF-8">
 		<title>OnBiomedical</title>
-		<style>
-			body {
-				background-color: #FBF0D9;
-			}
-			h1 {
-				font-family: Arial;
-				font-size: 30pt;
-				color: #1C1C1C;
-				text-shadow: 1px 1px 1px green;
-			}
-			h3 {
-				font-family: Arial;
-				font-size: 15pt;
-				color: #1C1C1C;
-			}
-			h2 {
-				font-family: Arial;
-				font-size: 15pt;
-				color: #1C1C1C;
-			}
-			p {
-				text-align: justify;
-				text-indent: 25px;
-				color: #1C1C1C;
-			}
-		</style>
+		<link rel="stylesheet" href="_css/estilo.css"/>
 	
-	</head>
-	<body>
-		<div id="cabeçalho">
-			<hgroup>
-			<h1 style="text-align: center">OnBiomedical</h1>
-			</hgroup>
-		</div>
-		<div id="menu_conteudo">
-			<ul>
-				<li><a href="#explain"><h2>Sobre nós</h2></a></li>
-				<li><a href="#trabalho_atual"><h2>Projeto atual</h2></a></li>
-			</ul>
-		</div>
+</head>
+<body>
+<div id="interface">
+	<header id="cabecalho">
+			<div>
+				<figure class="header">
+					<img src="_media/logoonbiomedical.jpg" alt="Logo OnBiomedical">
+				<figure>
+			</div>
 		<div id="menu">
-			<ul>
-				<li><a href="http://onbiomedical.tk/"><p>HOMEPAGE</p></a></li>
-				<li><p>CONTATO</p></li>
-				<li><a href="https://onbiomedical.blogspot.com"><p>BLOG ONBIOMEDICAL</p></a></li>
-			</ul>
+			<nav id="menu">
+				<h1>MENU</h1>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="projetos.html">PROJETOS</a></li>
+					<li><a href="https://onbiomedical.blogspot.com">BLOG ONBIOMEDICAL</a></li>
+					<li><a href="sobre.html">SOBRE NÓS</a></li>
+					<li><a href="contato.html">CONTATO</a></li>
+				</ul>
+			</nav>
 		</div>
-		<div id="explain">
-			<h3>Sobre Nós</h3>
-			<p>A OnBiomedical é uma empresa de biotecnologia em desenvolvimento fundada em 2020 com o intuito de promover e desenvolver a biotecnologia em diversos parâmetros, desde lógica em programação até testes biomoleculares. Além dos desenvolvimentos, nossa equipe trabalha também em criação de postagens no nosso blog para ajudar pessoas leigas e estudantes iniciais de saúde e biomedicina, se você quiser acessar nosso blog <a href="https://onbiomedical.blogspot.com" target="_blank">clique aqui</a>.</p>
-		</div>
-		<br><br>
-		<div id="trabalho_atual">
-			<h3>Projeto Atual</h3>
-			<p>Atualmente a OnBiomedical está trabalhando no desenvolvimento de sistema de pesquisa para estudantes e escritores de artigos de revisão encontrarem suas referências e artigos. Esse programa irá ajudar à diminuir o tempo que precisamos para realizar uma pesquisa de literatura para escrevermos nossos artigos.</p>
-		</div>
+	</header>
+	<section id="corpo">
+		<article id="noticia-principal">
+			<div id="trabalho_atual">
+				<h2>Projeto Atual</h2>
+				<figure class="foto-onbiomedicalsearch">
+					<img src="_media/biomedicalsearchproject.jpg">
+					<figcaption>
+						<h3>BiomedicalSearch</h3>
+						<p>Uma nova maneira de se fazer pesquisa de literatura.</p>
+					</figcaption>
+				</figure>
+				<p>Atualmente a OnBiomedical está trabalhando no desenvolvimento de sistema de pesquisa para estudantes e escritores de artigos de revisão encontrarem suas referências e artigos. Esse programa irá ajudar à diminuir o tempo que precisamos para realizar uma pesquisa de literatura para escrevermos nossos artigos.</p>
+				<h4>por Carlos Wallace</h4>
+			</div>
+		</article>
+	</section>
+	<aside id="lateral">
 	
-	</body>
+	</aside>
+	<footer id="rodape">
+		<p>Copyright © 2020 - by OnBiomedical</p>
+	</footer>
+</div>
+</body>
 
 </html>
